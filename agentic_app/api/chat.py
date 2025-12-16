@@ -1,10 +1,10 @@
-from http.server import BaseHTTPRequestHandler
-import json
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 from groq import Groq
 
-# Initialize Groq client
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 RAJU_SYSTEM_PROMPT = """You are Raju, a charming Indian shopkeeper.
 
@@ -27,51 +27,51 @@ RULES:
 NEVER write long paragraphs. Be SHORT and FUN!"""
 
 
-class handler(BaseHTTPRequestHandler):
-    def do_OPTIONS(self):
-        self.send_response(200)
-        self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Access-Control-Allow-Methods', 'POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
-        self.end_headers()
+@app.route('/', methods=['GET', 'POST', 'OPTIONS'])
+@app.route('/api/chat', methods=['GET', 'POST', 'OPTIONS'])
+def chat():
+    # Handle CORS preflight
+    if request.method == 'OPTIONS':
+        response = jsonify({})
+        return response
 
-    def do_POST(self):
-        try:
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            data = json.loads(post_data.decode('utf-8'))
+    # Health check for GET
+    if request.method == 'GET':
+        return jsonify({"status": "ok", "message": "Raju's API is running!"})
 
-            user_message = data.get('message', '')
+    try:
+        # Initialize Groq client inside try block
+        api_key = os.environ.get("GROQ_API_KEY")
+        if not api_key:
+            return jsonify({"error": "GROQ_API_KEY not configured", "response": "Arre baba! Server not configured properly!"}), 500
 
-            # Generate response using Groq
-            response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[
-                    {"role": "system", "content": RAJU_SYSTEM_PROMPT},
-                    {"role": "user", "content": user_message}
-                ],
-                temperature=0.8,
-                max_tokens=150,
-            )
+        client = Groq(api_key=api_key)
 
-            assistant_response = response.choices[0].message.content
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No data received", "response": "Arre baba! Send me a message!"}), 400
 
-            # Send response
-            self.send_response(200)
-            self.send_header('Content-Type', 'application/json')
-            self.send_header('Access-Control-Allow-Origin', '*')
-            self.end_headers()
+        user_message = data.get('message', '')
+        if not user_message:
+            return jsonify({"error": "No message provided", "response": "Arre baba! What do you want to say?"}), 400
 
-            response_data = {
-                "response": assistant_response,
-                "session_id": "vercel-session"
-            }
-            self.wfile.write(json.dumps(response_data).encode('utf-8'))
+        # Generate response using Groq
+        completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": RAJU_SYSTEM_PROMPT},
+                {"role": "user", "content": user_message}
+            ],
+            temperature=0.8,
+            max_tokens=150,
+        )
 
-        except Exception as e:
-            self.send_response(500)
-            self.send_header('Content-Type', 'application/json')
-            self.send_header('Access-Control-Allow-Origin', '*')
-            self.end_headers()
-            error_response = {"error": str(e)}
-            self.wfile.write(json.dumps(error_response).encode('utf-8'))
+        assistant_response = completion.choices[0].message.content
+
+        return jsonify({
+            "response": assistant_response,
+            "session_id": "vercel-session"
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e), "response": "Arre baba! Something went wrong!"}), 500
