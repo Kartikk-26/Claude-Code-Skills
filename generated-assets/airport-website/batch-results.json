@@ -1,0 +1,110 @@
+{
+  "total": 11,
+  "successful": 11,
+  "failed": 0,
+  "assets": [
+    {
+      "name": "hero-main",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\hero-main.png",
+      "processedPaths": []
+    },
+    {
+      "name": "hero-secondary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\hero-secondary.png",
+      "processedPaths": []
+    },
+    {
+      "name": "hero-feature",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\hero-feature.png",
+      "processedPaths": []
+    },
+    {
+      "name": "hero-cta",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\hero-cta.png",
+      "processedPaths": []
+    },
+    {
+      "name": "background-main",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\background-main.png",
+      "processedPaths": []
+    },
+    {
+      "name": "background-secondary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\background-secondary.png",
+      "processedPaths": []
+    },
+    {
+      "name": "icon-primary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\icon-primary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\airport-website\\icon-primary-nobg.png"
+        },
+        {
+          "type": "svg",
+          "path": "generated-assets\\airport-website\\icon-primary-nobg.svg"
+        }
+      ]
+    },
+    {
+      "name": "icon-secondary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\icon-secondary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\airport-website\\icon-secondary-nobg.png"
+        },
+        {
+          "type": "svg",
+          "path": "generated-assets\\airport-website\\icon-secondary-nobg.svg"
+        }
+      ]
+    },
+    {
+      "name": "icon-tertiary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\icon-tertiary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\airport-website\\icon-tertiary-nobg.png"
+        },
+        {
+          "type": "svg",
+          "path": "generated-assets\\airport-website\\icon-tertiary-nobg.svg"
+        }
+      ]
+    },
+    {
+      "name": "icon-quaternary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\icon-quaternary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\airport-website\\icon-quaternary-nobg.png"
+        }
+      ]
+    },
+    {
+      "name": "icon-quinary",
+      "success": true,
+      "generatedPath": "generated-assets\\airport-website\\icon-quinary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\airport-website\\icon-quinary-nobg.png"
+        }
+      ]
+    }
+  ]
+}
