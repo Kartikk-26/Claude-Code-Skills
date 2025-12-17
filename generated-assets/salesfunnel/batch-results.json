@@ -1,0 +1,110 @@
+{
+  "total": 11,
+  "successful": 11,
+  "failed": 0,
+  "assets": [
+    {
+      "name": "hero-main",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\hero-main.png",
+      "processedPaths": []
+    },
+    {
+      "name": "hero-secondary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\hero-secondary.png",
+      "processedPaths": []
+    },
+    {
+      "name": "hero-feature",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\hero-feature.png",
+      "processedPaths": []
+    },
+    {
+      "name": "hero-cta",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\hero-cta.png",
+      "processedPaths": []
+    },
+    {
+      "name": "background-main",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\background-main.png",
+      "processedPaths": []
+    },
+    {
+      "name": "background-secondary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\background-secondary.png",
+      "processedPaths": []
+    },
+    {
+      "name": "icon-primary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\icon-primary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\salesfunnel\\icon-primary-nobg.png"
+        },
+        {
+          "type": "svg",
+          "path": "generated-assets\\salesfunnel\\icon-primary-nobg.svg"
+        }
+      ]
+    },
+    {
+      "name": "icon-secondary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\icon-secondary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\salesfunnel\\icon-secondary-nobg.png"
+        },
+        {
+          "type": "svg",
+          "path": "generated-assets\\salesfunnel\\icon-secondary-nobg.svg"
+        }
+      ]
+    },
+    {
+      "name": "icon-tertiary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\icon-tertiary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\salesfunnel\\icon-tertiary-nobg.png"
+        },
+        {
+          "type": "svg",
+          "path": "generated-assets\\salesfunnel\\icon-tertiary-nobg.svg"
+        }
+      ]
+    },
+    {
+      "name": "icon-quaternary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\icon-quaternary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\salesfunnel\\icon-quaternary-nobg.png"
+        }
+      ]
+    },
+    {
+      "name": "icon-quinary",
+      "success": true,
+      "generatedPath": "generated-assets\\salesfunnel\\icon-quinary.png",
+      "processedPaths": [
+        {
+          "type": "no-background",
+          "path": "generated-assets\\salesfunnel\\icon-quinary-nobg.png"
+        }
+      ]
+    }
+  ]
+}
