@@ -1,0 +1,198 @@
+{
+  "presets": {
+    "hero": {
+      "name": "Hero Image",
+      "width": 1920,
+      "height": 1080,
+      "quality": 85,
+      "format": "webp",
+      "sizes": [1920, 1280, 960, 640],
+      "style": "professional, high quality, suitable for website header",
+      "postProcess": ["optimize"]
+    },
+    "heroLarge": {
+      "name": "Hero Image (4K)",
+      "width": 3840,
+      "height": 2160,
+      "quality": 90,
+      "format": "webp",
+      "sizes": [3840, 2560, 1920, 1280],
+      "style": "professional, ultra high quality, 4K resolution",
+      "postProcess": ["optimize"]
+    },
+    "icon": {
+      "name": "UI Icon",
+      "width": 256,
+      "height": 256,
+      "quality": 90,
+      "format": "png",
+      "sizes": [256, 128, 64, 32],
+      "style": "minimal, flat design, single color, white background",
+      "postProcess": ["removeBackground", "convertToSvg"]
+    },
+    "iconLarge": {
+      "name": "Feature Icon",
+      "width": 512,
+      "height": 512,
+      "quality": 90,
+      "format": "png",
+      "sizes": [512, 256, 128],
+      "style": "detailed, professional, clean design",
+      "postProcess": ["removeBackground"]
+    },
+    "thumbnail": {
+      "name": "Thumbnail",
+      "width": 400,
+      "height": 300,
+      "quality": 75,
+      "format": "webp",
+      "sizes": [400, 200],
+      "style": "clear, recognizable at small size",
+      "postProcess": ["optimize"]
+    },
+    "avatar": {
+      "name": "Avatar/Profile",
+      "width": 512,
+      "height": 512,
+      "quality": 85,
+      "format": "png",
+      "sizes": [512, 256, 128, 64],
+      "style": "portrait, professional, clear face",
+      "postProcess": ["removeBackground"]
+    },
+    "background": {
+      "name": "Background Pattern",
+      "width": 1920,
+      "height": 1080,
+      "quality": 80,
+      "format": "webp",
+      "sizes": [1920, 1280],
+      "style": "abstract, subtle, seamless pattern",
+      "postProcess": ["optimize"]
+    },
+    "backgroundTile": {
+      "name": "Tileable Background",
+      "width": 512,
+      "height": 512,
+      "quality": 85,
+      "format": "png",
+      "sizes": [512, 256],
+      "style": "seamless, tileable, pattern",
+      "postProcess": []
+    },
+    "product": {
+      "name": "Product Image",
+      "width": 1024,
+      "height": 1024,
+      "quality": 90,
+      "format": "png",
+      "sizes": [1024, 512, 256],
+      "style": "product photography, clean background, professional",
+      "postProcess": ["removeBackground", "optimize"]
+    },
+    "productSquare": {
+      "name": "Product Square",
+      "width": 800,
+      "height": 800,
+      "quality": 85,
+      "format": "webp",
+      "sizes": [800, 400, 200],
+      "style": "e-commerce style, white background",
+      "postProcess": ["optimize"]
+    },
+    "infographic": {
+      "name": "Infographic",
+      "width": 800,
+      "height": 600,
+      "quality": 90,
+      "format": "png",
+      "sizes": [800, 600, 400],
+      "style": "clean data visualization, professional chart",
+      "postProcess": []
+    },
+    "social": {
+      "name": "Social Media",
+      "width": 1200,
+      "height": 630,
+      "quality": 85,
+      "format": "jpg",
+      "sizes": [1200],
+      "style": "eye-catching, social media optimized",
+      "postProcess": ["optimize"]
+    },
+    "socialSquare": {
+      "name": "Social Square",
+      "width": 1080,
+      "height": 1080,
+      "quality": 85,
+      "format": "jpg",
+      "sizes": [1080, 540],
+      "style": "instagram style, engaging",
+      "postProcess": ["optimize"]
+    },
+    "logo": {
+      "name": "Logo",
+      "width": 512,
+      "height": 512,
+      "quality": 100,
+      "format": "png",
+      "sizes": [512, 256, 128, 64, 32],
+      "style": "logo design, simple, memorable, scalable",
+      "postProcess": ["removeBackground", "convertToSvg"]
+    },
+    "favicon": {
+      "name": "Favicon",
+      "width": 512,
+      "height": 512,
+      "quality": 100,
+      "format": "png",
+      "sizes": [512, 192, 180, 152, 144, 128, 96, 72, 64, 48, 32, 16],
+      "style": "simple, recognizable at small sizes, bold",
+      "postProcess": ["removeBackground"]
+    }
+  },
+  "formats": {
+    "webp": {
+      "extension": "webp",
+      "mimeType": "image/webp",
+      "quality": 80,
+      "compression": "lossy",
+      "browser_support": "modern"
+    },
+    "png": {
+      "extension": "png",
+      "mimeType": "image/png",
+      "quality": 90,
+      "compression": "lossless",
+      "supports_transparency": true
+    },
+    "jpg": {
+      "extension": "jpg",
+      "mimeType": "image/jpeg",
+      "quality": 85,
+      "compression": "lossy",
+      "progressive": true
+    },
+    "avif": {
+      "extension": "avif",
+      "mimeType": "image/avif",
+      "quality": 75,
+      "compression": "lossy",
+      "browser_support": "cutting-edge"
+    },
+    "svg": {
+      "extension": "svg",
+      "mimeType": "image/svg+xml",
+      "compression": "none",
+      "scalable": true
+    }
+  },
+  "aspectRatios": {
+    "square": { "width": 1, "height": 1, "label": "1:1" },
+    "landscape": { "width": 16, "height": 9, "label": "16:9" },
+    "portrait": { "width": 9, "height": 16, "label": "9:16" },
+    "wide": { "width": 21, "height": 9, "label": "21:9" },
+    "standard": { "width": 4, "height": 3, "label": "4:3" },
+    "photo": { "width": 3, "height": 2, "label": "3:2" }
+  }
+}

@@ -1,0 +1,206 @@
+# Infographic Element Prompts
+
+## Master Template
+{chart_type} visualization, {data_representation}, {color_scheme} colors, clean modern design, professional infographic style, suitable for web, {background}, high quality vector-style illustration
+
+---
+
+## Chart Types
+
+### Bar Charts
+Horizontal/vertical bar chart visualization, clean bars with subtle shadows, modern gradient fills, clear value representation, professional infographic style, grid lines optional, suitable for data comparison, 800x600
+
+### Pie/Donut Charts
+Pie chart visualization, {segments} segments, modern flat colors, clean separation, percentage labels, professional infographic design, suitable for proportion display, 600x600
+
+### Line Graphs
+Line graph visualization, smooth curves, data points marked, gradient fill below line, modern design, professional analytics style, suitable for trend display, 800x400
+
+### Area Charts
+Stacked area chart, layered data visualization, smooth curves, gradient fills, modern design aesthetic, professional infographic style, 800x400
+
+### Progress Indicators
+Circular progress indicator, {percentage}% filled, modern design, gradient or solid fill, clean typography, professional UI element, 200x200
+
+### Gauge/Meter
+Gauge meter visualization, semi-circular dial, needle indicator, modern dashboard style, professional metrics display, 300x200
+
+### Flowcharts
+Flowchart diagram, connected boxes and arrows, process visualization, clean modern design, professional documentation style, 800x600
+
+### Timeline
+Horizontal timeline visualization, milestone markers, connected events, modern design, professional history/roadmap style, 1000x300
+
+### Comparison Tables
+Visual comparison chart, feature checkmarks, clean grid layout, modern table design, professional comparison style, 800x600
+
+### Funnel Charts
+Funnel visualization, staged segments, gradient colors, conversion flow representation, modern marketing style, 400x600
+
+---
+
+## Data Visualization Elements
+
+### Numbers/Statistics
+Large number display, bold typography, supporting label, modern stat card style, professional metrics, suitable for dashboard, 300x200
+
+### Icon + Stat Combo
+Icon with statistic, number display, descriptive label, modern infographic element, professional design, 200x200
+
+### Ranking List
+Numbered ranking visualization, bar indicators, clean list format, modern leaderboard style, professional design, 400x600
+
+### Heat Map
+Color-coded heat map, gradient intensity, data grid visualization, modern analytics style, 600x400
+
+### World/Location Map
+Geographic data visualization, highlighted regions, data overlay, modern map style, professional global view, 1000x600
+
+### Network/Connection Diagram
+Node and edge diagram, connection visualization, modern network style, tech aesthetic, professional design, 800x800
+
+---
+
+## Color Schemes for Data
+
+### Professional Blues
+- Primary: #2563EB
+- Secondary: #3B82F6
+- Tertiary: #60A5FA
+- Light: #DBEAFE
+
+### Success/Growth Greens
+- Primary: #16A34A
+- Secondary: #22C55E
+- Tertiary: #4ADE80
+- Light: #DCFCE7
+
+### Warning/Attention
+- Primary: #EA580C
+- Secondary: #F97316
+- Tertiary: #FB923C
+- Light: #FFEDD5
+
+### Multi-Color Palette
+- Blue: #3B82F6
+- Green: #22C55E
+- Yellow: #EAB308
+- Red: #EF4444
+- Purple: #8B5CF6
+
+### Monochrome
+- Dark: #1F2937
+- Medium: #6B7280
+- Light: #D1D5DB
+- Lighter: #F3F4F6
+
+---
+
+## Infographic Styles
+
+### Flat Design
+- Solid colors
+- No gradients
+- Clean shapes
+- Minimal shadows
+- Modern aesthetic
+
+### Material Design
+- Subtle shadows
+- Layered elements
+- Bold colors
+- Clean typography
+- Google-inspired
+
+### Glassmorphism
+- Frosted glass effect
+- Blur backgrounds
+- Transparency
+- Modern trend
+- Elegant feel
+
+### Neumorphism
+- Soft shadows
+- Embossed look
+- Subtle depth
+- Modern UI trend
+- Tactile feel
+
+### Minimalist
+- Maximum whitespace
+- Essential elements only
+- Clean typography
+- Subtle colors
+- Professional
+
+---
+
+## Component Elements
+
+### Arrows/Connectors
+Direction arrows, flow indicators, connection lines, modern design, various styles (curved, straight, dotted)
+
+### Labels/Tags
+Data labels, category tags, value indicators, clean typography, modern styling
+
+### Legends
+Chart legend, color key, category explanation, clean layout, professional design
+
+### Annotations
+Callout boxes, highlight markers, explanatory notes, clean design, non-intrusive
+
+### Dividers/Separators
+Section dividers, visual separators, subtle lines, modern styling, clean aesthetic
+
+---
+
+## Usage Guidelines
+
+### For Dashboards
+- Consistent card sizes
+- Unified color palette
+- Clear hierarchy
+- Responsive design
+- Real-time data ready
+
+### For Reports
+- Print-friendly colors
+- Clear labels
+- Professional styling
+- Consistent formatting
+- High resolution
+
+### For Presentations
+- Bold and visible
+- Simple data points
+- Impactful colors
+- Clear at distance
+- Animated-ready
+
+### For Social Media
+- Square or vertical format
+- Bold colors
+- Simple message
+- Shareable design
+- Brand consistent
+
+---
+
+## Technical Specifications
+
+### Recommended Sizes
+- Dashboard card: 400x300
+- Full chart: 800x600
+- Inline stat: 200x100
+- Social media: 1080x1080
+
+### Format
+- SVG preferred (scalable)
+- PNG for complex graphics
+- WebP for web optimization
+
+### Accessibility
+- Sufficient color contrast
+- Alternative text ready
+- Pattern alternatives to color
+- Clear labels always

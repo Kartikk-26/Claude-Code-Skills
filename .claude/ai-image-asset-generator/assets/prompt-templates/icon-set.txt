@@ -1,0 +1,125 @@
+# Icon Set Generation Prompts
+
+## Master Template
+{icon_subject} icon, {style} design, single color ({color}), white background, centered composition, consistent stroke width, {size}px, suitable for UI, professional quality
+
+---
+
+## Style Presets
+
+### Minimal Line Icons
+{subject} icon, minimal line art style, thin consistent strokes, single color, white background, centered, clean geometric shapes, modern UI design, 256x256
+
+### Flat Solid Icons
+{subject} icon, flat design, solid fill, no gradients, single color, white background, centered, geometric shapes, modern material design style, 256x256
+
+### Outlined Icons
+{subject} icon, outlined style, consistent 2px stroke, rounded corners, single color, white background, centered, friendly modern design, 256x256
+
+### Gradient Icons
+{subject} icon, modern gradient fill (blue to purple), subtle depth, white background, centered, contemporary app icon style, 512x512
+
+### 3D Isometric Icons
+{subject} icon, isometric 3D style, subtle shadows, modern tech aesthetic, white background, centered, colorful but cohesive, 512x512
+
+### Hand-drawn Icons
+{subject} icon, hand-drawn sketch style, organic lines, single color, white background, centered, friendly approachable feel, 256x256
+
+---
+
+## Common Icon Categories
+
+### Navigation Icons
+- Home: house/home icon, simple geometric, represents homepage
+- Menu: hamburger menu icon, three horizontal lines, navigation
+- Search: magnifying glass icon, circular lens with handle
+- Settings: gear/cog icon, mechanical feel, configuration
+- Profile: user silhouette icon, represents account/profile
+- Notifications: bell icon, alert/notification indicator
+- Back: left arrow icon, navigation, return action
+- Close: X icon, close/dismiss action, cross shape
+
+### Action Icons
+- Add/Plus: plus sign icon, create new action
+- Edit: pencil icon, edit/modify action
+- Delete: trash bin icon, remove/delete action
+- Save: floppy disk or checkmark, save action
+- Share: share arrow icon, social sharing
+- Download: downward arrow with line, download action
+- Upload: upward arrow with line, upload action
+- Copy: overlapping squares, duplicate action
+
+### Communication Icons
+- Email: envelope icon, email/message
+- Phone: telephone handset icon, call action
+- Chat: speech bubble icon, messaging
+- Video: video camera icon, video call
+- Microphone: mic icon, audio/voice
+
+### Media Icons
+- Play: right-pointing triangle, play media
+- Pause: two vertical bars, pause media
+- Stop: square shape, stop media
+- Volume: speaker icon with sound waves
+- Mute: speaker with X, muted audio
+- Camera: camera icon, photo capture
+- Image: landscape picture icon, image file
+
+### Status Icons
+- Success: checkmark in circle, success state
+- Error: X in circle, error state
+- Warning: exclamation in triangle, warning
+- Info: i in circle, information
+- Loading: circular spinner, loading state
+
+### Business Icons
+- Analytics: bar chart icon, data/analytics
+- Dashboard: grid layout icon, dashboard view
+- Calendar: calendar page icon, dates/scheduling
+- Document: paper document icon, files
+- Folder: folder icon, file organization
+- Money: dollar sign or currency, payments
+- Cart: shopping cart icon, e-commerce
+
+---
+
+## Consistency Guidelines
+
+### For Cohesive Icon Sets:
+1. Use same stroke width throughout (e.g., 2px)
+2. Use same corner radius (e.g., 4px rounded)
+3. Use consistent padding/margins
+4. Apply same color or color palette
+5. Keep same level of detail across all icons
+6. Use same grid size (e.g., 24x24, 48x48 base)
+
+### Prompt Suffix for Consistency:
+", consistent with icon set, matching style, same stroke width, same visual weight, cohesive design system"
+
+---
+
+## Size Recommendations
+
+| Use Case | Size | Format |
+|----------|------|--------|
+| Favicon | 32x32, 64x64 | PNG, ICO |
+| UI Icons | 24x24, 48x48 | SVG, PNG |
+| Feature Icons | 64x64, 128x128 | SVG, PNG |
+| App Icons | 512x512, 1024x1024 | PNG |
+| Illustrations | 256x256+ | SVG, PNG |
+
+---
+
+## Color Recommendations
+
+### Single Color (for SVG conversion):
+- Black: #000000
+- Dark Gray: #333333
+- Brand Primary: {your_brand_color}
+
+### For Colored Icons:
+- Primary Action: Blue #2563EB
+- Success: Green #16A34A
+- Warning: Yellow #EAB308
+- Error: Red #DC2626
+- Info: Cyan #0891B2

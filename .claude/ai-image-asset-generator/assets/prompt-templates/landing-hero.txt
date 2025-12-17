@@ -1,0 +1,58 @@
+# Landing Page Hero Image Prompts
+
+## Template Structure
+[SUBJECT] [STYLE] [MOOD] [TECHNICAL SPECS]
+
+---
+
+## General Hero Template
+{subject} landing page hero image, modern web design aesthetic, professional, clean composition, high quality, vibrant colors, {mood} atmosphere, suitable for website header, 16:9 aspect ratio, sharp focus, balanced lighting
+
+## Tech Startup Hero
+Futuristic tech startup office environment, modern glass building interior, team collaboration scene, blue and purple accent lighting, professional atmosphere, clean minimal design, dynamic composition, high quality digital art, suitable for website hero section
+
+## E-commerce Hero
+Premium product showcase scene, elegant lifestyle photography style, soft natural lighting, minimalist background, professional product presentation, luxury feel, clean white space, high-end aesthetic, suitable for online store header
+
+## SaaS Product Hero
+Abstract data visualization, flowing digital particles, modern gradient background (blue to purple), tech-forward aesthetic, clean and professional, represents connectivity and innovation, suitable for software product landing page
+
+## Agency/Creative Hero
+Creative workspace scene, artistic elements, bold colors, dynamic composition, professional yet innovative, represents creativity and excellence, modern design aesthetic, suitable for creative agency website
+
+## Finance/Business Hero
+Professional business environment, corporate aesthetic, trust-inspiring imagery, blue and gold color scheme, clean and authoritative, represents stability and growth, suitable for financial services website
+
+## Healthcare Hero
+Clean medical environment, caring and professional, soft blue and white colors, trustworthy and approachable, represents health and wellness, suitable for healthcare website header
+
+## Education Hero
+Inspiring learning environment, diverse students, bright and welcoming, represents growth and knowledge, warm lighting, suitable for educational institution website
+
+## Travel/Tourism Hero
+Stunning destination landscape, wanderlust-inspiring, vibrant colors, adventure and discovery theme, professional travel photography style, suitable for travel website hero
+
+## Food/Restaurant Hero
+Appetizing food presentation, professional food photography, warm lighting, inviting atmosphere, represents quality and taste, suitable for restaurant or food delivery website
+
+---
+
+## Style Modifiers
+- Modern: clean lines, minimal clutter, contemporary feel
+- Professional: polished, trustworthy, business-appropriate
+- Playful: bright colors, dynamic elements, energetic
+- Elegant: sophisticated, luxury feel, refined details
+- Bold: high contrast, striking visuals, attention-grabbing
+
+## Technical Specifications
+- Resolution: 1920x1080 (Full HD) or 2560x1440 (2K)
+- Aspect Ratio: 16:9 for standard, 21:9 for ultra-wide
+- Format: PNG for transparency, JPG for photos, WebP for web
+- Quality: High detail, sharp focus, proper exposure
+
+## Usage Tips
+1. Always include "suitable for website" in prompts
+2. Specify color schemes that match brand identity
+3. Include mood descriptors (professional, friendly, innovative)
+4. Mention "clean composition" for better layouts
+5. Add "high quality" or "detailed" for better results

@@ -1,0 +1,26 @@
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Generated assets (user-specific)
+generated-assets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+test-output/
+*.test.png

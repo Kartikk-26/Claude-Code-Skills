@@ -1,0 +1,120 @@
+# Abstract Background Prompts
+
+## Master Template
+Abstract {pattern_type} background, {color_scheme} color palette, {mood} atmosphere, seamless pattern, suitable for website background, high resolution, {style}
+
+---
+
+## Pattern Types
+
+### Geometric Patterns
+Abstract geometric background, clean triangles and polygons, low-poly style, subtle gradient, modern tech aesthetic, seamless tileable pattern, professional website background, 1920x1080
+
+### Gradient Backgrounds
+Smooth gradient background, {color1} to {color2} transition, soft and modern, no harsh lines, subtle color flow, suitable for website sections, professional quality, 1920x1080
+
+### Wave Patterns
+Abstract flowing waves background, smooth curves, layered depth, soft gradients, modern organic feel, calming aesthetic, website hero background, 1920x1080
+
+### Particle/Dot Patterns
+Abstract particle field background, scattered dots, varying sizes, subtle connections, tech/data visualization feel, dark background with light particles, 1920x1080
+
+### Mesh Gradient
+Modern mesh gradient background, multiple color blobs, smooth blending, vibrant yet professional, contemporary design trend, suitable for website, 1920x1080
+
+### Noise/Grain Texture
+Subtle noise texture background, grainy film effect, single color with texture, adds depth and character, modern aesthetic, seamless tileable, 1920x1080
+
+### Blob/Organic Shapes
+Abstract blob shapes background, organic flowing forms, soft edges, modern gradient fills, overlapping translucent shapes, contemporary design, 1920x1080
+
+### Line Art Patterns
+Abstract line pattern background, flowing continuous lines, topographic map style, single color, subtle and elegant, modern minimalist, 1920x1080
+
+### Circuit/Tech Patterns
+Abstract circuit board pattern, tech lines and nodes, futuristic feel, dark background, glowing accents, suitable for tech website, 1920x1080
+
+### Glassmorphism Background
+Frosted glass effect background, subtle blur, floating shapes behind glass, modern glassmorphism style, light and airy, 1920x1080
+
+---
+
+## Color Schemes
+
+### Professional/Corporate
+- Blue gradient: #1E3A8A → #3B82F6
+- Gray tones: #1F2937 → #6B7280
+- Navy to teal: #1E40AF → #0D9488
+
+### Creative/Vibrant
+- Purple to pink: #7C3AED → #EC4899
+- Orange to yellow: #EA580C → #FACC15
+- Multi-color mesh: purples, blues, pinks blended
+
+### Minimal/Clean
+- White to light gray: #FFFFFF → #F3F4F6
+- Soft beige: #FDF6E3 → #F5F0E6
+- Cool gray: #F8FAFC → #E2E8F0
+
+### Dark/Modern
+- Dark blue: #0F172A → #1E293B
+- Pure dark: #000000 → #171717
+- Dark purple: #1E1B4B → #312E81
+
+### Nature/Organic
+- Green gradient: #14532D → #22C55E
+- Ocean blues: #0C4A6E → #38BDF8
+- Sunset: #7C2D12 → #FBBF24
+
+---
+
+## Mood Descriptors
+
+- Professional: clean, polished, business-appropriate
+- Playful: energetic, fun, vibrant colors
+- Calm: soothing, peaceful, soft tones
+- Bold: high contrast, striking, attention-grabbing
+- Elegant: sophisticated, refined, subtle
+- Futuristic: tech-forward, innovative, modern
+- Warm: inviting, friendly, comfortable
+- Cool: calm, collected, professional
+
+---
+
+## Section-Specific Backgrounds
+
+### Hero Section
+Large scale, impactful, gradient or abstract shapes, draws attention, professional quality, supports overlay text
+
+### Features Section
+Subtle pattern, doesn't distract from content, light colors, clean and minimal
+
+### CTA Section
+Gradient or solid with subtle texture, contrasts with rest of page, draws attention to action
+
+### Footer Section
+Darker tones, can be more detailed, transitions from main content, professional closure
+
+### Testimonial Section
+Soft, subtle background, doesn't compete with quotes, warm and trustworthy feel
+
+---
+
+## Technical Specifications
+
+### Recommended Sizes
+- Full width: 1920x1080 (HD), 2560x1440 (2K)
+- Pattern tile: 512x512 (seamless)
+- Section background: 1920x600
+
+### Format Recommendations
+- Gradients: SVG or CSS (not image)
+- Patterns: PNG (transparent) or SVG
+- Complex: WebP or optimized JPG
+
+### Performance Tips
+1. Use CSS gradients when possible
+2. Compress images (WebP preferred)
+3. Consider lazy loading for below-fold
+4. Use appropriate resolution (not oversized)
+5. Test on different screen sizes

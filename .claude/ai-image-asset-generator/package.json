@@ -1,0 +1,48 @@
+{
+  "name": "@ai-labs-claude-skills/ai-image-asset-generator",
+  "version": "1.0.0",
+  "description": "Claude AI skill for generating image assets using Gemini API with background removal, SVG conversion, and frontend integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-image.js",
+    "batch": "node scripts/batch-generate.js",
+    "remove-bg": "node scripts/remove-background.js",
+    "to-svg": "node scripts/png-to-svg.js",
+    "optimize": "node scripts/optimize-assets.js",
+    "analyze": "node scripts/analyze-page.js",
+    "test": "node scripts/generate-image.js --prompt \"test image\" --output test.png"
+  },
+  "files": [
+    "."
+  ],
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "sharp": "^0.33.0",
+    "potrace": "^2.1.8",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.0"
+  },
+  "keywords": [
+    "claude",
+    "skill",
+    "gemini",
+    "image-generation",
+    "ai",
+    "assets",
+    "background-removal",
+    "svg"
+  ],
+  "license": "MIT",
+  "author": "AI Labs",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

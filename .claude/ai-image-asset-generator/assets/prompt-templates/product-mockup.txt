@@ -1,0 +1,184 @@
+# Product Mockup Prompts
+
+## Master Template
+{product_type} mockup, {angle} view, {environment} setting, professional product photography, {lighting} lighting, {style} style, high quality render, suitable for website, {background}
+
+---
+
+## Device Mockups
+
+### Laptop/MacBook
+Modern laptop mockup, front angle view, screen displaying {content}, minimal desk setup, soft natural lighting, clean white/gray background, professional product shot, high quality, 1920x1080
+
+### Smartphone/iPhone
+Smartphone mockup, {angle} view, screen showing {app/content}, floating or on surface, soft shadows, minimal background, professional render, suitable for app showcase, 1080x1920
+
+### Tablet/iPad
+Tablet device mockup, {angle} view, screen displaying {content}, professional setting, clean background, soft lighting, high quality product render, suitable for website, 1024x768
+
+### Desktop Monitor
+Desktop monitor mockup, front view, screen showing {website/dashboard}, modern desk setup, professional office environment, clean aesthetic, high quality, 1920x1080
+
+### Multi-Device
+Multiple device mockup, laptop tablet and phone together, responsive design showcase, matching screen content, professional arrangement, clean background, cohesive presentation
+
+### Smartwatch
+Smartwatch mockup, wrist-worn or floating, screen showing {app/face}, lifestyle or minimal setting, professional quality, modern aesthetic, 512x512
+
+---
+
+## Software/App Mockups
+
+### Dashboard UI
+Software dashboard mockup, browser window frame, modern UI design, data visualizations, professional SaaS aesthetic, clean interface, suitable for product page, 1920x1080
+
+### Mobile App Screens
+Mobile app interface mockup, phone frame, {app_type} UI design, modern and clean, professional app store quality, suitable for showcase, 1080x1920
+
+### Browser Window
+Website in browser mockup, Chrome/Safari style frame, showing {website_type}, realistic browser UI, professional presentation, clean background, 1920x1080
+
+---
+
+## Physical Product Mockups
+
+### Package/Box
+Product packaging mockup, {box_type} style, {angle} view, professional product photography, studio lighting, clean background, high quality render, suitable for e-commerce
+
+### Book/Magazine
+{publication_type} mockup, cover design showcase, {angle} view, professional studio setting, soft shadows, clean background, high quality, suitable for publishing showcase
+
+### Apparel/T-shirt
+T-shirt mockup, {worn/flat} presentation, {color} fabric, professional product shot, clean background, suitable for print-on-demand showcase, high quality
+
+### Mug/Cup
+Mug mockup, {angle} view, {design} on surface, lifestyle or studio setting, professional product photography, warm aesthetic, suitable for merchandise showcase
+
+### Business Cards
+Business card mockup, {arrangement} layout, professional studio shot, soft shadows, clean background, high quality render, suitable for branding showcase
+
+---
+
+## Environment Settings
+
+### Studio/Minimal
+- Clean white background
+- Soft shadows
+- Professional lighting
+- No distractions
+- Focus on product
+
+### Lifestyle/Context
+- Real-world setting
+- Props and context
+- Natural lighting
+- Tells a story
+- Aspirational feel
+
+### Workspace/Office
+- Desk setup
+- Professional environment
+- Complementary items
+- Business context
+- Modern aesthetic
+
+### Outdoor/Natural
+- Natural lighting
+- Environmental context
+- Fresh and dynamic
+- Lifestyle oriented
+- Authentic feel
+
+---
+
+## Angle Options
+
+### Front View
+- Direct, straight-on
+- Clear visibility
+- Professional
+- Good for UI showcase
+
+### Three-Quarter
+- 45-degree angle
+- Dynamic feel
+- Shows depth
+- Popular choice
+
+### Isometric
+- Technical view
+- Equal angles
+- Modern tech style
+- Clean aesthetic
+
+### Top-Down/Flat Lay
+- Bird's eye view
+- Good for arrangements
+- Social media style
+- Shows full product
+
+### Side Profile
+- Slim profile view
+- Shows thickness
+- Good for devices
+- Clean silhouette
+
+---
+
+## Lighting Styles
+
+### Soft Natural
+- Diffused daylight
+- Soft shadows
+- Warm feeling
+- Professional
+
+### Studio
+- Controlled lighting
+- Clean shadows
+- Professional
+- Consistent
+
+### Dramatic
+- Strong contrasts
+- Bold shadows
+- Attention-grabbing
+- Premium feel
+
+### Backlit
+- Rim lighting
+- Glowing edges
+- Modern tech feel
+- Eye-catching
+
+---
+
+## Background Options
+
+- Pure white (#FFFFFF)
+- Light gray (#F5F5F5)
+- Gradient (subtle)
+- Transparent (for compositing)
+- Contextual/Environmental
+- Colored (brand-specific)
+
+---
+
+## Quality Specifications
+
+### Resolution
+- Hero images: 1920x1080+
+- Product cards: 800x800
+- Thumbnails: 400x400
+- Detail shots: 1200x1200
+
+### Format
+- PNG: transparent backgrounds
+- JPG: solid backgrounds
+- WebP: web optimization
+
+### Style Consistency
+- Same lighting across set
+- Consistent angles
+- Matching shadows
+- Cohesive color treatment
